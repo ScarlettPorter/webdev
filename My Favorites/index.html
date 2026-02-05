@@ -4,8 +4,24 @@
 <head>
     <title>My Favorite Music Artists</title>
     <style>
+        body {
+            background-color: #F8F9FA;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h1 {
+            color: bisque;
+            text-align: center;
+        }
+
         table {
-            width: 100%
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
         }
 
         th {
@@ -14,17 +30,58 @@
             padding: 12px;
             text-align: left;
         }
+
+        td {
+            padding: 10px;
+        }
+
+        .big {
+            background-color: #802704;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .list-container {
+            background-color: #DFE6E9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        #color-explanation {
+            background-color: #802704;
+            padding: 15px;
+            border: 2px solid bisque;
+            color: #e4ae6b;
+        }
+
+        tr:hover {
+            background-color: #FFEAA7;
+        }
     </style>
 </head>
 
-<body style="background-color: rgb(190, 76, 34);">
-    <h1 style="color: bisque;">My Top Three Favorite Music Artists</h1>
-    <p style="color: bisque;">These are a few music artists I could listen to on repeat without ever getting bored of
-        them.</p>
-
+<body style="background-color: #be4c22;">
+    <div class="big">
+        <h1 style="color: #e4ae6b;">My Top Three Favorite Music Artists</h1>
+        <p style="color: rgb(228, 174, 107);">These are a few music artists I could listen to on repeat without ever
+            getting bored of them.</p>
+    </div>
     <hr>
+    <div class="highlight" style="color: bisque;">
+        <p>This page uses a complementary color scheme with a dark umber (#802704) and deep champagne (#e4ae6b) as the
+            main colors.</p>
+    </div>
+    <div id="color-explanation" style="color: #e4ae6b;">
+        <h2 style="text-align: center;">Color Scheme Explanation</h2>
+        <p>I chose a complementary color scheme because I wanted to invoke a sense of comfort and warmth. The umber
+            conveys
+            stability and serenity, while the deep champagne adds elegance and refinement. The neutral background
+            (be4c22) keeps
+            the page from feeling overwhelming.</p>
+    </div>
 
-    <h2 style="color: bisque;">Top Three</h2>
+    <h2 style="color: bisque; ">Top Three</h2>
     <ol style="color: bisque;">
         <li>The Antlers</li>
         <li>As Tall As Lions</li>
@@ -32,18 +89,26 @@
 
     </ol>
 
-    <h2 style="color: bisque;">Why I Love These Artists</h2>
-    <ul style="color: bisque;">
-        <li>The Antlers music is very atmospheric and resonates with the listeners emotions.</li>
-        <li>Even though As Tall As Lions has disbanded, their work was a mix of indie rock and some jazz influences that
-            make their music very melodic.</li>
-        <li>Artificial Language has a mix of metal music and unique choruses, which really vibes with my spirit.</li>
-    </ul>
+    <img src="images/blight.webp" height="150px" width="150px" style="border-color: bisque;" border="2px">
+    <img src="images/As Tall As Lions.jpg" height="150px" width="150px" style="border-color: bisque;" border="2px">
+    <img src="images/Artificial Language.jpg" height="150px" width="150px" style="border-color: bisque;" border="2px">
+    <div class="big">
+
+        <h2 style="color: rgb(228, 174, 107); ">Why I Love These Artists</h2>
+        <ul style="color: rgb(228, 174, 107);">
+            <li>The Antlers music is very atmospheric and resonates with the listeners emotions.</li>
+            <li>Even though As Tall As Lions has disbanded, their work was a mix of indie rock and some jazz influences
+                that
+                make their music very melodic.</li>
+            <li>Artificial Language has a mix of metal music and unique choruses, which really vibes with my spirit.
+            </li>
+        </ul>
+    </div>
 
     <hr>
     <tr>
 
-        <table style="color: bisque;" border="1px">
+        <table style="border-color: bisque;" border="1px">
             <tr>
                 <th>Names</th>
                 <th>Instrument</th>
